@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34310.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPM Tests", "TPM Tests.csproj", "{13746047-940E-452A-BEAF-385391998D65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13746047-940E-452A-BEAF-385391998D65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13746047-940E-452A-BEAF-385391998D65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13746047-940E-452A-BEAF-385391998D65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13746047-940E-452A-BEAF-385391998D65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BC0BA3A-5FD6-4E1E-8E3E-7FF75B5DE3B9}
+	EndGlobalSection
+EndGlobal
