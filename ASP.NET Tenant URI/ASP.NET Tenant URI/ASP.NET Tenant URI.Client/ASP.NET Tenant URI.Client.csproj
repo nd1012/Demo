@@ -6,8 +6,8 @@
     <Nullable>enable</Nullable>
     <NoDefaultLaunchSettingsFile>true</NoDefaultLaunchSettingsFile>
     <StaticWebAssetProjectMode>Default</StaticWebAssetProjectMode>
-    <RootNamespace>ASP.NET Tenant URI.Client</RootNamespace>
-    <AssemblyName>$(AssemblyName.Replace(' ', '_'))</AssemblyName>
+    <RootNamespace>Demo</RootNamespace>
+    <AssemblyName>DemoClient</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

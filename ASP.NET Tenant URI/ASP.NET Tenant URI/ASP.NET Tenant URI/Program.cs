@@ -1,5 +1,5 @@
-using ASP.NET_Tenant_URI.Client.Pages;
-using ASP.NET_Tenant_URI.Components;
+using Demo.Pages;
+using Demo.Components;
 
 var builder = WebApplication.CreateBuilder(args);
 
