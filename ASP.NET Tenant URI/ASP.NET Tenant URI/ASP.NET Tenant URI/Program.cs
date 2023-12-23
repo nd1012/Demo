@@ -1,5 +1,6 @@
-using Demo.Pages;
+using Demo;
 using Demo.Components;
+using Demo.Pages;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,7 +20,9 @@ else
     app.UseExceptionHandler("/Error", createScopeForErrors: true);
 }
 
+app.UseMiddleware<TenantMiddleware>();// Tenant URI redirect/rewrite
 app.UseStaticFiles();
+app.UseRouting();// Required to be called before UseAntiforgery
 app.UseAntiforgery();
 
 app.MapRazorComponents<App>()
