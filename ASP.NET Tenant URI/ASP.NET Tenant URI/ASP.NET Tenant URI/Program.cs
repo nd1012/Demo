@@ -20,7 +20,7 @@ else
     app.UseExceptionHandler("/Error", createScopeForErrors: true);
 }
 
-app.UseMiddleware<TenantMiddleware>();// Tenant URI redirect/rewrite
+app.UseMiddleware<TenantMiddleware>();// Tenant URI redirect/rewrite - required to run before any FS/API access
 app.UseStaticFiles();
 app.UseRouting();// Required to be called before UseAntiforgery
 app.UseAntiforgery();
